@@ -1,5 +1,5 @@
 # Astound
-Astound is a Vanilla+ modpack focused on subtly upgrading the game. Combining big and small content mods with optimization and quality of life tweaks, Astound reimagines the Minecraft experience from the ground up, letting you enjoy aspects of the game you may have otherwise overlooked.
+Astound is a Vanilla+ modpack focused on adding a fair amount of balanced content to the game. Combining big and small content mods with optimization and quality of life tweaks, Astound reimagines many aspects of Minecraft, letting you enjoy features that you may have otherwise overlooked.
 ## Features
 - **Carefully curated:** Every mod, big or small, has been assesed and tweaked in order to bring a cohesive experience and improve compatibility.
 - **For the community:** Astound aims to give the spotlight to new and lesser known mods, all available on the Modrinth ecosystem.

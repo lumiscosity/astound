@@ -20,7 +20,7 @@ body:
     attributes:
       label: Mod description
       description: Pitch the mod. Describe what features it would introduce to the pack, and 
-      placeholder: Tell us what you see!
+      placeholder: Tell us about the mod!
     validations:
       required: true
   - type: textarea

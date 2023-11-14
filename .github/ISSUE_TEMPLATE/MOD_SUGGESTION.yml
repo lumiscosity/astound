@@ -1,0 +1,39 @@
+name: Mod Suggestion
+description: Suggest a mod to be added to the pack.
+title: "[Mod Suggestion]: "
+labels: ["mod suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a mod! Don't be disheartened if it gets rejected - there's much more to enjoy in the pack.
+  - type: input
+    id: mod_name
+    attributes:
+      label: Mod name
+      description: The name of the mod.
+      placeholder: ex. 1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: mod_description
+    attributes:
+      label: Mod description
+      description: Pitch the mod. Describe what features it would introduce to the pack, and 
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: considerations
+    attributes:
+      label: Special considerations
+      description: If there's any potential blockers for the addition of the mod to the pack (duplicate features, major bugs, mod incompatibilities etc.), put them here.
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I have searched the repo to ensure this isn't a duplicate suggestion.
+          required: true
+        - label: I have tested the mod and ensured at least runs without crashing with the other mods in the pack present.
+          required: true

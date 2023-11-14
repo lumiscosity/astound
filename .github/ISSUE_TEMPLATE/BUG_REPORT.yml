@@ -1,0 +1,47 @@
+name: Bug Report
+description: Report a mod conflict or other pack-related bug.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: pack_version
+    attributes:
+      label: Modpack version
+      description: The version of the modpack you're using.
+      placeholder: ex. 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: mods_involved
+    attributes:
+      label: Mods involved
+      description: The mod(s) involved in the issue, if relevant.
+      placeholder: ex. ModA, ModB
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Bug description
+      description: Describe the issue in detail, including where it happens, and what is supposed to happen instead.
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: extra_info
+    attributes:
+      label: Additional information
+      description: Add any additional information here.
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I have searched the repo to ensure this isn't a duplicate report.
+          required: true
+        - label: This bug report concerns the modpack - bug reports specific to a mod should be reported to the mod's developers.
+          required: true

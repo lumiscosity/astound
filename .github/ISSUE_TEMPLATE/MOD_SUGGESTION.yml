@@ -19,7 +19,7 @@ body:
     id: mod_description
     attributes:
       label: Mod description
-      description: Pitch the mod. Describe what features it would introduce to the pack, and 
+      description: Pitch the mod. Describe what features it would introduce to the pack, and what makes it unique.
       placeholder: Tell us about the mod!
     validations:
       required: true

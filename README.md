@@ -1,4 +1,4 @@
-**ALPHA! This modpack is in the early testing stages and some features may be missing or broken.**
+**BETA! This modpack is in the early testing stages and some features may be missing or broken.**
 
 ![Minecraft: Astound](https://github.com/lumiscosity/astound/blob/main/.github/BRANDING/title_modrinth.png?raw=true)
 

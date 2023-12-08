@@ -213,6 +213,7 @@ handle.dump(origin="data/astound/advancements/adventure/", path="kill_a_mob.json
 # Add breeding
 handle = JsonFile(source_path="data/astound/advancements/husbandry/bred_all_animals.json")
 cond_list = [
+    "biomemakeover:scuttler",
     "promenade:capybara",
     "promenade:duck",
     "snuffles:snuffle"
